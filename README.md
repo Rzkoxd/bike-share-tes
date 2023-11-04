@@ -13,3 +13,8 @@ pip install numpy pandas scipy matplotlib seaborn jupyter streamlit
 ```
 streamlit run dashboard/dashboard.py
 ```
+
+## Screenshot Dashboard
+![](ss-1.jpeg)
+![](ss-2.jpeg)
+![](ss-3.jpeg)
