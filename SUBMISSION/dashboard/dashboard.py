@@ -32,7 +32,7 @@ def create_performing_month_2011_df(df):
     return performing_month_2011_df
 
 # Load Berkas csv
-all_df = pd.read_csv("https://github.com/Rzkoxd/bike-share-tes/blob/main/SUBMISSION/dashboard/main_data.csv")
+all_df = pd.read_csv("https://raw.githubusercontent.com/Rzkoxd/bike-share-tes/main/SUBMISSION/dashboard/main_data.csv")
 
 datetime = ["dateday"]
 all_df.sort_values(by=["dateday", "month"], inplace=True)
